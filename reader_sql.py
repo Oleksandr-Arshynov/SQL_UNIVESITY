@@ -4,7 +4,7 @@ import sqlite3
 conn = sqlite3.connect('/Users/oleksandrarshinov/Desktop/Documents/Repository/SQL_UNIVESITY/university.db')
 cursor = conn.cursor()
 
-with open('query_addition_2.sql', 'r') as file:
+with open('query_addition_1.sql', 'r') as file:
     sql_query = file.read()
 
 cursor.execute(sql_query)
